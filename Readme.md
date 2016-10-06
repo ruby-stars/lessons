@@ -18,15 +18,17 @@ Examples on how relational (comparison) operators work in numbers as well as exa
 ## Proposed exercises
 ### `Exercises-27.9.2016`
 First set of additional exercises. With solutions discussed during the lesson.
+
 General topics for solving the tasks:
 * Use of loops
 * Use of `if` statements
 * Recap on arrays and operations that can be performed with them
 
 ### `Exercises-4.10.2016`
-Second set of additional exercises. Solutions TBA.
+Second set of additional exercises. Solutions added (built by coaches).
+
 General topics for solving the tasks:
-* Use of comparison operators
+* Use of comparison and mathematical operators
 * Use of loops
 * Use of `if` statements
-* More operations with arrays
+* Operations with arrays (check the Ruby documentation for insights and hints)
