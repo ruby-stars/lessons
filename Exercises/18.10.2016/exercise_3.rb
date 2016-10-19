@@ -13,16 +13,54 @@
 # - you give [1,3,5,7,8] and [2,4,6]
 # - you get [1,2,3,4,5,6,7,8]
 
-def combine(ary1, ary2)
+# Solution 1
+def combine1(ary1, ary2)
   ary3 = []
-  n = ary2.length
+
+  n = if (ary1.length > ary2.length)
+        ary1.length
+      else
+        ary2.length
+      end
 
   for i in (0...n)
     ary3[2*i] = ary1[i]
     ary3[2*i+1] = ary2[i]
   end
 
-  p ary3
+  p ary3.compact
 end
 
-combine([1,3,5], [2,4,6])
+
+# Solution 2
+def combine2(ary1, ary2)
+  ary3 = []
+
+  (ary1.length > ary2.length) ? (n = ary1.length) : (n = ary2.length)
+
+  for i in (0...n)
+    ary3[2*i] = ary1[i]
+    ary3[2*i+1] = ary2[i]
+  end
+
+  p ary3.compact
+end
+
+
+# Solution 2
+def combine3(ary1, ary2)
+  ary3 = []
+
+  n = [ary1.length, ary2.length].max
+
+  for i in (0...n)
+    ary3[2*i] = ary1[i]
+    ary3[2*i+1] = ary2[i]
+  end
+
+  p ary3.compact
+end
+
+combine1([1,3,5], [2,4,6,7,8])
+combine2([1,3,5], [2,4,6,7,8])
+combine3([1,3,5], [2,4,6,7,8])
