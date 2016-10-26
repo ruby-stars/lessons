@@ -68,5 +68,7 @@ The method `mark_as_oldie` should only set `oldie = true` to the songs which hav
 
 4. Extend `exercise 3` and don't allow the friend to change the birthdate.
 
-    friend = Friend.new('lorenzo', '1997-03-05', 987654321)
-    friend.birthdate = '1998-10-10' # This should fail
+  ```ruby
+  friend = Friend.new('lorenzo', '1997-03-05', 987654321)
+  friend.birthdate = '1998-10-10' # This should fail
+  ```
