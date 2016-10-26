@@ -61,7 +61,7 @@ The method `mark_as_oldie` should only set `oldie = true` to the songs which hav
     stop
 
     Your list of friends:
-      * Fernando's birthdate is "25 Oct 1990" and he has birthday today! :D
+      * Fernando's birthdate is "25 Oct 1990" and has birthday today! :D
       * Lorenzo's birthdate is "25 March 1997" and does not have birthday today! :(
   ```
   Hint: `require 'date'`
