@@ -12,8 +12,8 @@ class Penguin < Bird
   end
 
   def swim
-    puts "Oh what?! I can swim! :D"
     super
+    puts "Oh what?! I can swim! :D"
   end
 end
 
