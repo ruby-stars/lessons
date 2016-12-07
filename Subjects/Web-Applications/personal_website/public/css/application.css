@@ -1,0 +1,39 @@
+body { background-color: white; }
+.top-section {
+  width: 400px;
+  border: 1px solid black;
+}
+
+.top-section h1 {
+  font-size: 20px;
+}
+
+.top-section p {
+  text-align: center;
+  border: 1px solid red;
+}
+
+section {
+  font-family: 'Menlo';
+}
+
+section p {
+  font-size: 13px;
+}
+
+section.second-section {
+ background-color: #9eb2d1;
+}
+
+a {
+  color: red;
+}
+
+a:hover {
+  color: blue;
+  text-transform: uppercase;
+}
+
+a:visited {
+  color: pink;
+}
