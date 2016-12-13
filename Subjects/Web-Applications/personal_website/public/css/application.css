@@ -17,6 +17,23 @@ section {
   font-family: 'Menlo';
 }
 
+img {
+  height: 200px;
+  border: 2px solid green;
+}
+
+a.link {
+  color: black;
+}
+
+a.link:hover {
+  color: blue;
+}
+
+a.link:visited {
+  color: yellow;
+}
+
 section p {
   font-size: 13px;
 }
