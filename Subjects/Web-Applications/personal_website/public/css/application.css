@@ -48,7 +48,6 @@ a {
 
 a:hover {
   color: blue;
-  text-transform: uppercase;
 }
 
 a:visited {
